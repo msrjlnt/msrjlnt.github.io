@@ -1,0 +1,49 @@
+/* Gaya umum untuk halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Gaya untuk header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+/* Gaya untuk judul */
+h1 {
+    font-size: 24px;
+}
+/* Gaya untuk konten */
+.content {
+    margin: 20px;
+}
+/* Gaya untuk tombol */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Gaya untuk iframe, membuatnya menjadi kotak persegi */
+iframe {
+    width: 80vmin; /* 50% dari dimensi viewport terkecil (lebar atau tinggi) */
+    height: 50vmin; /* 50% dari dimensi viewport terkecil (lebar atau tinggi) */
+    border: none;
+}
+
+iframe {
+    background-color: #ffffff ; /* Warna latar belakang hitam */
+}
